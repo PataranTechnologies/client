@@ -1,0 +1,99 @@
+.outerContainer
+{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-self: center;
+}
+.FormContainer{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  
+    padding: 2%;
+    
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.nameInput
+{
+
+ 
+    padding: 10px;
+    
+    width: 100%;
+
+}
+.mardiv
+{
+margin-top: 20px;
+margin-bottom: 20px;
+background-color: white;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    border-radius: 100px;
+}
+
+.emailInput{
+
+
+    
+    width: 100%;
+    padding: 10px;
+    
+
+}
+.wrongInput
+{
+    border-color: darkred;
+}
+.genderDiv
+{
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+.submitButton
+{
+
+    border-radius: 30px;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.registerDivButton:hover
+{
+cursor: pointer;
+
+}
+
+.loginDivButton:hover
+{
+
+    cursor: pointer;
+
+}
+
+.dataContainer{
+    display: flex;
+    flex-direction: column;
+    width: 120%;
+    margin: 30px;
+    height: 90%;
+    padding: 1%;
+    
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    
+}
+
+.data
+{
+    width: 90vw;
+    height: 90vh;
+    overflow: auto;
+}
